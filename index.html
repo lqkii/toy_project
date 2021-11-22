@@ -10,15 +10,23 @@
 </head>
 <body>
     <h1 id="number"> </h1>
-    <h2 id="pressSpace">Press space to start!</h2>
-    <h2 id="count_key">Count = 0</h2>
     <h2 id="land"></h2>
-    <div id="bottleIdle"></div>
-        <video id="landVideo" width="400px" height="400px">
-            <source src="C4D/bottle_land.mp4" type="video/mp4">
+    <div class="textContainer">
+        <h2 id="count_key">0</h2>
+        <h2 id="pressSpace">Press space to flip!</h2>
+    </div>
+    <div id="bottleIdleContainer">
+        <div id="bottleIdle"></div>
+    </div>
+    <div id="bottleLandContainer">
+        <video id="bottleLand" autoplay>
+            <source src="C4D/bottle_land_hd.mp4" type="video/mp4">
         </video>
-    <video id="failVideo">
-        <source href="C4D/bottle_fail.mp4" type="video/mp4">
-    </video>
+    </div>
+    <div id="bottleFailContainer">
+        <video id="bottleFail" autoplay>
+            <source src="C4D/bottle_fail_hd.mp4" type="video/mp4">
+        </video>
+    </div>
 </body>
 </html>
