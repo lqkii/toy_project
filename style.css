@@ -70,15 +70,15 @@ body {
 }
 
 #bottleIdle {
-    background-image: url(C4D/bottle_img.jpg);
+    background-image: url(C4D/bottle_img.jp);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat, no-repeat;
     margin: 0;
     display: inline-block;
-    margin-top: -2vh;
-    height: 114vh;
-    width: 114vw;
+    margin-top: -5vh;
+    height: 120vh;
+    width: 120vw;
 }
 
 #bottleLandContainer {

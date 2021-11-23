@@ -10,10 +10,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-function countUp() {
-    countNum++;
-}
-
 this.document.addEventListener("keydown", space)
 
 function space(e) {
@@ -36,7 +32,7 @@ function space(e) {
             document.getElementById("land").innerHTML = "land!";
 
             layer++;
-            setTimeout(countUp, 1000)
+            countNum++;
             // console.log(countNum);
             document.getElementById("count_key").innerHTML = countNum;
             land = 1;
