@@ -61,35 +61,35 @@ body {
 #bottleIdleContainer {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     position: absolute;
     z-index: -1;
     top: 0;
+    overflow: hidden;
 }
 
 #bottleIdle {
-    background-image: url(C4D/bottle_img.jp);
+    background-image: url(assets/bottle_img.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: 108%;
     background-repeat: no-repeat, no-repeat;
     margin: 0;
     display: inline-block;
-    margin-top: -5vh;
-    height: 120vh;
-    width: 120vw;
+    margin-top: 1vh;
+    height: 108vh;
+    width: 108vw;
 }
 
 #bottleLandContainer {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     position: absolute;
     z-index: -2;
     top: 0;
+    overflow: hidden;
 }
 
 #bottleLand {
@@ -101,12 +101,12 @@ body {
 #bottleFailContainer {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     position: absolute;
     z-index: -2;
     top: 0;
+    overflow: hidden;
 }
 
 #bottleFail {

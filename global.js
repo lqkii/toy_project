@@ -22,7 +22,7 @@ function space(e) {
             layer++;
             number = (getRandomInt(1, 10));
             document.getElementById("number").innerHTML = number;
-            if(number <= 7) {
+            if(number <= 6) {
                 document.getElementById("land").innerHTML = "fail!";
                 land = 0;
                 console.log(land)
